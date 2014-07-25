@@ -16,17 +16,17 @@ Why not a pod with subspecs???
 
 To make **NitroCore** a pod with subspecs or simply an "aggregator" pod resulted in many discussions. At the end, we decided for the latter. Why?
 
-1) Discoverability issues: subspecs have a serious discoverability issue. You can not search for a subspec at [CocoaPods](http://cocoapods.org/), nor can a subspec have a description of its own. So developers would have to go deep in the main pod wiki, pray to have a very good readme in each subspec folder at the git repo, or to be very curious about every pod launched to discover what is inside of them.
+**1) Discoverability issues:** subspecs have a serious discoverability issue. You can not search for a subspec at [CocoaPods](http://cocoapods.org/), nor can a subspec have a description of its own. So developers would have to go deep in the main pod wiki, pray to have a very good readme in each subspec folder at the git repo, or to be very curious about every pod launched to discover what is inside of them.
 
-2) More contributions: Having separated projects with a clearer goal improves code contributions, since it is much easier to have knowledge of all the code in a repo.
+**2) More contributions:** Having separated projects with a clearer goal improves code contributions, since it is much easier to have knowledge of all the code in a repo.
 
-3) Better documentation: easier to know what to document and what have already been documented.
+**3) Better documentation:** easier to know what to document and what have already been documented.
 
-4) Better testing: easier to know what to test and what have already been tested.
+**4) Better testing:** easier to know what to test and what have already been tested.
 
 The downside?
 
-1) When a "aggregated" pod is updated, **NitroCore** has to be updated.
+**1)** When a "aggregated" pod is updated, **NitroCore** has to be updated.
 
 The downside above is not really a problem. Afterall, it is not so different from what happens when a pod depends on another pod. Besides that, it is better to have this kind of trouble than to have a pod no one knows about. =)
 
